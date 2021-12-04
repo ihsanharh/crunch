@@ -2,7 +2,7 @@ package emojis
 
 var (
 	PingPong = "🏓"
-	"
+	music = "🎵"
 	xmark     = "✖️"
 	Loading = "🥏"
 	check      = "✅"
