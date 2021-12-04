@@ -10,3 +10,4 @@ var Module = &core.Module{
 	Commands: []*core.Command{commands.PingCommand},
 	Events:   []*core.Event{events.ReadyEvent},
 }
+ 
