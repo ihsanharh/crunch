@@ -65,7 +65,7 @@ var PlayCommand = core.Command{
 			Field("Provider", song.Provider(), true)
 
 		if !song.IsLoaded() {
-			go ctx.Reply(embed.Description("%s Loading [%s](%s)", emojis.AnimatedStaff, song.Title, song.URL))
+			go ctx.Reply(embed.Description("%s Loading [%s](%s)", emojis.loading, song.Title, song.URL))
 
 			if err := song.Load(); err != nil {
 				ctx.Stacktrace(err)
@@ -77,7 +77,7 @@ var PlayCommand = core.Command{
 		ctx.Reply(embed.
 			Color(0x00D166).
 			Thumbnail(song.Thumbnail).
-			Description("%s Music [%s](%s) added to queue", emojis.Yeah, song.Title, song.URL))
+			Description("%s Music [%s](%s) added to queue", emojis.check, song.Title, song.URL))
 	},
 }
 
