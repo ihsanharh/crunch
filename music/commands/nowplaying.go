@@ -1,10 +1,10 @@
 package music
 
 import (
-	"github.com/ItsClairton/Anny/core"
-	music "github.com/ItsClairton/Anny/music/audio"
-	"github.com/ItsClairton/Anny/utils"
-	"github.com/ItsClairton/Anny/utils/emojis"
+	"github.com/XzFrosT/crunch/core"
+	music "github.com/XzFrosT/crunch/music/audio"
+	"github.com/XzFrosT/crunch/utils"
+	"github.com/XzFrosT/crunch/utils/emojis"
 )
 
 var NowplayingCommand = core.Command{
