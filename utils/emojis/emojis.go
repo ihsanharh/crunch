@@ -4,7 +4,7 @@ var (
 	PingPong = "🏓"
 	music = "🎵"
 	xmark     = "✖️"
-	Loading = "🥏"
+	loading = "🥏"
 	check      = "✅"
 )
 
