@@ -15,7 +15,7 @@ var PlayCommand = core.Command{
 	Description: "Play a song",
 	Options: discord.CommandOptions{&discord.StringOption{
 		OptionName:  "song",
-		Description: "Name of the song/playlist or its URL(only youtube)",
+		Description: "Name of the song/playlist or the URL(only youtube)",
 		Required:    true,
 	}, &discord.BooleanOption{
 		OptionName:  "shuffle",
